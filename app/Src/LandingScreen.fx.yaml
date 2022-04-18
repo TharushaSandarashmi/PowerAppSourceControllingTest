@@ -148,3 +148,11 @@ LandingScreen As screen:
         Y: =413
         ZIndex: =7
 
+    Label8 As label:
+        Height: =55
+        Text: ="Power App Source Controlling Testing"
+        Width: =499
+        X: =838
+        Y: =78
+        ZIndex: =8
+
