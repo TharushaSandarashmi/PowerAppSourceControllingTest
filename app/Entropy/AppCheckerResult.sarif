@@ -14,29 +14,40 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.FocusedBorderThickness"
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.FocusedBorderThickness",
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 51,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button4_2"
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
           "ruleIndex": 0
         },
         {
@@ -44,17 +55,2486 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 50,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, 1 - Day(DateSelected), Days)"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 29,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 361,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 50,
+                  "charOffset": 331,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, 1 - Day(DateSelected), Days)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 339,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 246,
+                  "snippet": {
+                    "text": "UpdateContext({ResetDateStore: DateSelected})"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label12_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label12_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label12_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label12_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label12_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 35,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]dddd\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label12_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonResetTime.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonResetTime.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 152,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonResetTime"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 75,
+                  "charOffset": 219,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, DropdownEndTime.SelectedText.Minutes + 1440, Minutes)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 227,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 68,
+                  "charOffset": 480,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, DropdownEndTime.SelectedText.Minutes, Minutes)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 488,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 70,
+                  "charOffset": 148,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, DropdownStartTime.SelectedText.Minutes, Minutes)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.ButtonSaveChanges.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 156,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.ButtonSaveChanges"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button3_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button3_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button3_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 35,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmmm\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]dd\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.iconCancelTime"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label13_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 35,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]yyyy\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label13_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MeetingDateText_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 44,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "Text(DateSelected, DateTimeFormat.ShortDate)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MeetingDateText_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 105,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MeetingDateText_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MeetingDateText_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmm dd, yyyy\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MeetingDateText_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button7_14.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button7_14.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 13,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button7_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.CircleSelected.Fill"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.CircleSelected.Fill",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Fill",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MonthDayGallery.CircleSelected"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.CircleSelected.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.CircleSelected.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MonthDayGallery.CircleSelected"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.Button12_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.MonthDayGallery.Button12_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 64,
+                  "charOffset": 82,
+                  "snippet": {
+                    "text": "Set(DateSelected, DateAdd(firstDayInView, ThisItem.Value, Days))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.MonthDayGallery.Button12_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button7_16.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button7_16.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button7_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 122,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, -1, Hours)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 130,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 30,
+                  "charOffset": 169,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, 1, Days)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 177,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Button6_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Set(DateSelected, ResetDateStore)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Button6_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 75,
+                  "charOffset": 113,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, DropdownEndTime.SelectedText.Minutes + 1440, Minutes)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label19_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 121,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label19_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 68,
+                  "charOffset": 240,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, DropdownEndTime.SelectedText.Minutes, Minutes)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label19_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdjustDateScreen.Label19_1.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 248,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "AdjustDateScreen",
+                "type": "AdjustDateScreen.Label19_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConfirmationScreen.Label19_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ConfirmationScreen.Label19_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ConfirmationScreen",
+                "type": "ConfirmationScreen.Label19_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ConfirmationScreen.Label19_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ConfirmationScreen.Label19_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 44,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmmm dd, yyyy\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ConfirmationScreen",
+                "type": "ConfirmationScreen.Label19_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LandingScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LandingScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 32,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "LandingScreen",
+                "type": "LandingScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LandingScreen.ButtonNoMeeting.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LandingScreen.ButtonNoMeeting.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LandingScreen",
+                "type": "LandingScreen.ButtonNoMeeting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 222,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, -1, Hours)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 230,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 30,
+                  "charOffset": 269,
+                  "snippet": {
+                    "text": "DateAdd(DateSelected, 1, Days)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateAdd"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 277,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.ButtonSwitchFlow.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.ButtonSwitchFlow.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.ButtonSwitchFlow"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingsGallery.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingsGallery.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 103,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.MeetingsGallery"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DateTime",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.MeetingDateText"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 44,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "Text(DateSelected, DateTimeFormat.ShortDate)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.MeetingDateText"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 105,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.MeetingDateText"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.MeetingDateText.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmm dd, yyyy\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.MeetingDateText"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 81,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.LabelNoMoreMeetings"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Date"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 137,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.LabelNoMoreMeetings"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Date"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 162,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.LabelNoMoreMeetings"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.LabelNoMoreMeetings.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 38,
+                  "charOffset": 157,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmmm dd\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.LabelNoMoreMeetings"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MeetingSelectScreen.Button6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MeetingSelectScreen.Button6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 55,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Set(DateSelected, DateValue(Text(ChosenMeeting.Start)))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MeetingSelectScreen",
+                "type": "MeetingSelectScreen.Button6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.ButtonSwitchFlow_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.ButtonSwitchFlow_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.ButtonSwitchFlow_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button6_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button6_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 55,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Set(DateSelected, DateValue(Text(ChosenMeeting.Start)))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button6_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
                 "module": "RoomListSelectScreen",
                 "type": "RoomListSelectScreen.MeetingDateText_1"
               }
@@ -64,99 +2544,49 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_6.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_6.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 44,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "Text(DateSelected, DateTimeFormat.ShortDate)"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "Text",
                 "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button7_6"
+                "type": "RoomListSelectScreen.MeetingDateText_1"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Text"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_3.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_3.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button7_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomListSelectScreen.SearchBox1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.SearchBox1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.SearchBox1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 1
         },
         {
@@ -164,19 +2594,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.MeetingTimeText_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.MeetingTimeText_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 105,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "Text",
                 "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.MeetingTimeText_1"
+                "type": "RoomListSelectScreen.MeetingDateText_1"
               }
             }
           ],
@@ -184,99 +2621,49 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_12.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_12.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmm dd, yyyy\")"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "Text",
                 "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button7_12"
+                "type": "RoomListSelectScreen.MeetingDateText_1"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Text"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_9.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button7_9.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button7_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.RoomsListsGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 1
         },
         {
@@ -284,19 +2671,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.TabIndex"
+                  "fullyQualifiedName": "RoomSelectScreen.ButtonSwitchFlow_2.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.TabIndex",
+                  "fullyQualifiedName": "RoomSelectScreen.ButtonSwitchFlow_2.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "Set(DateSelected, Today())"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.RoomsListsGallery"
+                "member": "OnSelect",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.ButtonSwitchFlow_2"
               }
             }
           ],
@@ -304,9 +2698,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
           "ruleIndex": 2
         },
         {
@@ -314,47 +2708,24 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "Text",
                 "module": "RoomSelectScreen",
                 "type": "RoomSelectScreen.MeetingDateText_2"
               }
@@ -364,29 +2735,76 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_8.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_8.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 44,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "Text(DateSelected, DateTimeFormat.ShortDate)"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "Text",
                 "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button7_8"
+                "type": "RoomSelectScreen.MeetingDateText_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 105,
+                  "snippet": {
+                    "text": "DateSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.MeetingDateText_2"
               }
             }
           ],
@@ -394,29 +2812,68 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_7.FocusedBorderThickness"
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_7.FocusedBorderThickness",
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "Text(DateSelected, \"[$-en-US]mmm dd, yyyy\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.MeetingDateText_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button7_7"
+                "module": "Screen1",
+                "type": "Screen1"
               }
             }
           ],
@@ -424,29 +2881,29 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "Low"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.TextInput2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.TextInput2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.RoomsGallery"
+                "module": "Screen1",
+                "type": "Screen1.TextInput2"
               }
             }
           ],
@@ -457,26 +2914,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.TabIndex"
+                  "fullyQualifiedName": "Screen1.TextInput3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.TabIndex",
+                  "fullyQualifiedName": "Screen1.TextInput3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.RoomsGallery"
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.TextInput3"
               }
             }
           ],
@@ -486,27 +2943,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.Button9.FocusedBorderThickness"
+                  "fullyQualifiedName": "Screen1.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.Button9.FocusedBorderThickness",
+                  "fullyQualifiedName": "Screen1.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.RoomsGallery.Button9"
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.TextInput1"
               }
             }
           ],
@@ -516,98 +2973,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.MeetingTimeText_2.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.MeetingTimeText_2.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.MeetingTimeText_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_13.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_13.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button7_13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_10.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button7_10.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button7_10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -637,67 +3004,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdjustDateScreen",
-                "type": "AdjustDateScreen.iconCancelTime"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdjustDateScreen.iconCancelTime.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "AdjustDateScreen",
-                "type": "AdjustDateScreen.iconCancelTime"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -727,7 +3034,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -757,7 +3064,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -787,7 +3094,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -817,7 +3124,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -847,7 +3154,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -877,7 +3184,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -907,7 +3214,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -937,7 +3244,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -967,7 +3274,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -997,7 +3304,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1027,7 +3334,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1057,7 +3364,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1087,7 +3394,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1117,7 +3424,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1147,7 +3454,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1177,7 +3484,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1207,7 +3514,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1237,7 +3544,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1267,7 +3574,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1297,7 +3604,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1327,7 +3634,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1357,7 +3664,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1387,7 +3694,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1417,7 +3724,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1447,7 +3754,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1477,7 +3784,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1507,7 +3814,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1537,7 +3844,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1567,7 +3874,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1597,7 +3904,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1627,7 +3934,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1657,26 +3964,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.ChosenLocation"
+                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.ChosenLocation",
+                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "ChosenLocation",
-                "module": "App",
-                "type": "App"
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button4_2"
               }
             }
           ],
@@ -1686,8 +3993,578 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingDateText_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.MeetingDateText_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_6.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_6.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button7_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button7_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.SearchBox1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.SearchBox1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.SearchBox1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingTimeText_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.MeetingTimeText_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.MeetingTimeText_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_12.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_12.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button7_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_9.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button7_9.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button7_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.RoomsListsGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.RoomsListsGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.RoomsListsGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingDateText_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.MeetingDateText_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_8.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_8.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button7_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_7.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_7.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button7_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.RoomsGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.RoomsGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.Button9.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.RoomsGallery.Button9.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.RoomsGallery.Button9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingTimeText_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.MeetingTimeText_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.MeetingTimeText_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_13.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_13.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button7_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_10.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button7_10.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button7_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1717,7 +4594,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1747,26 +4624,26 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleIndex": 9
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.Y"
+                  "fullyQualifiedName": "App.ChosenLocation"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.Y",
+                  "fullyQualifiedName": "App.ChosenLocation",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Y",
-                "module": "RoomListSelectScreen",
-                "type": "RoomListSelectScreen.Button4_2"
+                "member": "ChosenLocation",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
@@ -1776,68 +4653,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.Y",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.Button4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RoomSelectScreen.LabelMeetingLocation_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RoomSelectScreen.LabelMeetingLocation_2.Text",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "RoomSelectScreen",
-                "type": "RoomSelectScreen.LabelMeetingLocation_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1867,7 +4684,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1897,7 +4714,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1927,7 +4744,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1957,7 +4774,97 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomListSelectScreen.Button4_2.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "RoomListSelectScreen",
+                "type": "RoomListSelectScreen.Button4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.Button4_3.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.Button4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RoomSelectScreen.LabelMeetingLocation_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RoomSelectScreen.LabelMeetingLocation_2.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "RoomSelectScreen",
+                "type": "RoomSelectScreen.LabelMeetingLocation_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 10
         }
       ],
       "tool": {
@@ -1966,20 +4873,100 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "acc-FocusBorderShouldBeVisible",
+              "id": "app-ErrBadType-ExpectedType-ProvidedType",
               "messageStrings": {
                 "issue": {
-                  "text": "Focus isn't showing"
+                  "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleCtxtVariableTypes",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. We can't evaluate your formula because the context variable types are incompatible with the types of values in other places in your app."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Change the FocusedBorderThickness property to be more than 0."
+                  "Look at places where you use a context variable and make sure that the type (e.g., text, number, date, record, table) is compatible."
                 ],
-                "level": "Medium",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrNumberOrStringExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected text or number. We expect text or a number at this point in the formula."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it evaluates to text or a number at this point in the formula."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "acc-ReadableScreenNameNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Revise screen name"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                ],
+                "level": "Low",
                 "primaryCategory": "accessibility",
-                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {
@@ -1997,6 +4984,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-FocusBorderShouldBeVisible",
+              "messageStrings": {
+                "issue": {
+                  "text": "Focus isn't showing"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the FocusedBorderThickness property to be more than 0."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
               }
             },
             {
