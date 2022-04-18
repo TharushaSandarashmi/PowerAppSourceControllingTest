@@ -1,0 +1,50 @@
+Screen1 As screen:
+
+    Label8 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(101, 128, 187, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =112
+        Size: =20
+        Text: ="Power App Source Controlling Testing Screen"
+        Width: =1366
+        ZIndex: =1
+
+    Label9 As label:
+        Text: |-
+            ="Student Name :"
+        X: =82
+        Y: =196
+        ZIndex: =2
+
+    Label10 As label:
+        Text: |-
+            ="Degree Program :"
+        X: =82
+        Y: =315
+        ZIndex: =3
+
+    TextInput1 As text:
+        Default: =""
+        Font: =Font.'Segoe UI'
+        HintText: ="Student Name"
+        X: =282
+        Y: =196
+        ZIndex: =4
+
+    TextInput2 As text:
+        Default: =""
+        Font: =Font.'Segoe UI'
+        HintText: ="Degree Program"
+        X: =282
+        Y: =315
+        ZIndex: =5
+
+    Button1 As button:
+        Text: ="Submit"
+        X: =602
+        Y: =487
+        ZIndex: =6
+
