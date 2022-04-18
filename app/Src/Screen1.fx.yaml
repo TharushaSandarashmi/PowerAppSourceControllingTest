@@ -45,6 +45,21 @@ Screen1 As screen:
     Button1 As button:
         Text: ="Submit"
         X: =602
-        Y: =487
+        Y: =549
         ZIndex: =6
+
+    Label11 As label:
+        Text: |-
+            ="Intake Number :"
+        X: =82
+        Y: =432
+        ZIndex: =7
+
+    TextInput3 As text:
+        Default: =""
+        Font: =Font.'Segoe UI'
+        HintText: ="Intake Number"
+        X: =282
+        Y: =432
+        ZIndex: =8
 
