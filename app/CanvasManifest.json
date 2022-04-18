@@ -104,6 +104,7 @@
     "RoomSelectScreen",
     "AdjustDateScreen",
     "ConfirmationScreen",
-    "CollectionsVariables"
+    "CollectionsVariables",
+    "Screen1"
   ]
 }
