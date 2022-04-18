@@ -1,4 +1,8 @@
 Screen1 As screen:
+    OnVisible: |-
+        =Reset(TextInput1);
+        Reset(TextInput2);
+        Reset(TextInput3);
 
     Label8 As label:
         Align: =Align.Center
@@ -43,6 +47,17 @@ Screen1 As screen:
         ZIndex: =5
 
     Button1 As button:
+        OnSelect: |
+            =Patch(
+                PowerAppSourceControlTest,
+                Defaults(PowerAppSourceControlTest),
+                {
+                    StudentName: TextInput1.Text,
+                    DegreeProgram: TextInput2.Text,
+                    IntakeNumber: TextInput3.Text
+                }
+            );
+            Notify("Successfully Submitted",NotificationType.Success,3000);
         Text: ="Submit"
         X: =602
         Y: =549

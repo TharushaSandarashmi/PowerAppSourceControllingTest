@@ -1,6 +1,6 @@
 {
   "177c5454-dfbb-4a45-b731-44a44718f323": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365/connections/e110d7be8b524d9e828e656e5e548dea",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-0ef91ab4-f3c7-420c-99c5-fc34-c31bf9da",
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -20,8 +20,35 @@
     "dependents": [],
     "id": "177c5454-dfbb-4a45-b731-44a44718f323"
   },
+  "8b3a6a61-aa62-4e2a-a066-f2d41c0b9965": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-0a56e30c-f9e6-4039-90d6-fe5b39b057c4",
+    "connectionParameters": {
+      "sku": "Enterprise",
+      "token:TenantId": "f9654482-61cf-4c55-8f6f-8e4843a3dc45"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1568/1.0.1568.2756/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://techoneglobalorg.sharepoint.com/sites/PMODev": {
+        "dataSources": {
+          "PowerAppSourceControlTest": {
+            "tableName": "e5b8771e-4ebb-45a8-8eee-17573f9ccdc2"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "PowerAppSourceControlTest"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8b3a6a61-aa62-4e2a-a066-f2d41c0b9965"
+  },
   "c2cc55f3-9620-47e5-a551-6fd0e9ba33bb": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/0c044ad810a5464d8cd3d9704d74a073",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/e3a3241ebcb54ea6836d6f576c88a232",
     "connectionParameters": {
       "sku": "Enterprise"
     },
